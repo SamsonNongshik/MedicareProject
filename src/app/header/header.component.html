@@ -1,0 +1,44 @@
+<nav class="navbar">
+    <h1><a routerLink="/">MediCare</a></h1>
+    <div *ngIf="menuType==='default'" class="search">
+        <input type="text" #searchInput (keyup)="searchProducts($event)" (blur)="hideSearch()" placeholder="Search For Items">
+        <button (click)="submitSearch(searchInput.value)" >Search</button>
+        <ul class="result" *ngIf="searchResult">
+            <li *ngFor="let item of searchResult">
+               <a (mousedown)="redirectToDetails(item.id)">{{item.name}}</a>
+            </li>
+        </ul>
+    </div>
+    <div *ngIf="menuType==='user'" class="search">
+        <input type="text" #searchInput (keyup)="searchProducts($event)" (blur)="hideSearch()" placeholder="Search For Items">
+        <button (click)="submitSearch(searchInput.value)" >Search</button>
+        <ul class="result" *ngIf="searchResult">
+            <li *ngFor="let item of searchResult">
+               <a (mousedown)="redirectToDetails(item.id)">{{item.name}}</a>
+            </li>
+        </ul>
+    </div>
+    <div [ngSwitch]="menuType">
+        <ul *ngSwitchCase="'default'">
+            <li><a routerLink="/">Home</a></li>
+            <li><a routerLink="/admin-auth">Admin</a></li>
+            <li><a routerLink="/user-auth">Login/SignUp</a></li>
+            <li><a href="#">Cart({{cartItems}})</a></li>
+        </ul>
+        <ul *ngSwitchCase="'user'">
+            <li><a routerLink="/">Home</a></li>
+            <li><a routerLink="/">{{userName|titlecase}}</a></li>
+            <li><a (click)="userLogout()">Logout</a></li>
+            <li><a href="#">Cart({{cartItems}})</a></li>
+        
+        </ul>
+   
+        <ul *ngSwitchCase="'admin'">
+            <li><a routerLink="admin-add-product">Add Product</a></li>
+            <li><a routerLink="admin-home">Product List</a></li>
+            <li><a (click)="logout()">Logout</a></li>
+            <li><a href="admin-home">{{adminName|titlecase}}</a></li>
+        </ul>
+    </div>
+</nav>
+

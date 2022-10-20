@@ -1,0 +1,110 @@
+{
+  "admin": [
+    {
+      "name": "Samson",
+      "password": "abc123",
+      "email": "samson@test.com",
+      "id": 1
+    },
+    {
+      "name": "john",
+      "password": "john123",
+      "email": "john@test.com",
+      "id": 2
+    }
+  ],
+  "products": [
+    {
+      "name": "Crocin",
+      "price": "59",
+      "description": "650 MG Tablet",
+      "image": "https://cdn01.pharmeasy.in/dam/products/I43006/crocin-650mg-advance-tab-15s-2-1641538269.jpg",
+      "category": "Headache",
+      "id": 1
+    },
+    {
+      "name": "Supradyn Daily Multivitamin Tablets 15s",
+      "price": "49",
+      "description": "Supradyn Daily Multivitamin Tablets help in building a strong immune system, aiding proper blood circulation level in your body.",
+      "image": "https://cdn01.pharmeasy.in/dam/products_otc/T70695/supradyn-daily-multivitamin-tablets-15s-1-1641793954.jpg?dim=700x0&dpr=1&q=100",
+      "category": "Fitness Supplements",
+      "id": 2
+    },
+    {
+      "name": "Evion 400mg Strip Of 10 Capsules",
+      "price": "31.59",
+      "description": "Evion 400 capsule is a vitamin supplement. Evion 400 capsule contains vitamin E (also known as tocopherol) as its active ingredient",
+      "image": "https://cdn01.pharmeasy.in/dam/products_otc/071710/evion-400mg-strip-of-10-capsules-1-1664874846.jpg?dim=700x0&dpr=1&q=100",
+      "category": "Fitness Supplements",
+      "id": 3
+    },
+    {
+      "name": "Onetouch Select Glucometer Test Strips 50s Pack",
+      "price": "1135.50",
+      "description": "The OneTouch Glucometer from the OneTouch Select family of products is used to test a person's blood glucose level efficiently",
+      "image": "https://cdn01.pharmeasy.in/dam/products_otc/131679/onetouch-select-glucometer-test-strips-50s-pack-1-1654078262.jpg?dim=700x0&dpr=1&q=100",
+      "category": "Healthcare Devices",
+      "id": 4
+    },
+    {
+      "name": "Dr Morepen Bg 03 Glucometer Test Strips Box Of 25",
+      "price": "399.20",
+      "description": "Dr Morepen BG03 Glucometer Test Strips when used with Dr Morepen Gluco One BG03 provides fast and accurate blood sugar levels.",
+      "image": "https://cdn01.pharmeasy.in/dam/products_otc/I06487/dr-morepen-bg-03-glucometer-test-strips-box-of-25-1-1654168049.jpg?dim=700x0&dpr=1&q=100",
+      "category": "Healthcare Devices",
+      "id": 5
+    },
+    {
+      "name": "Saridon Headache Relief Tablet- Strip Of 10 Tablets",
+      "price": "35.95",
+      "description": "Saridon tablets are usually used for headache relief",
+      "image": "https://cdn01.pharmeasy.in/dam/products_otc/156565/saridon-headache-relief-tablet-strip-of-10-tablets-2.1-1641398744.jpg",
+      "category": "Headache",
+      "id": 6
+    },
+    {
+      "name": "Zandu Pain Relief Balm Bottle Of 50 Ml",
+      "price": "129",
+      "description": "Zandu balm is an iconic pain relief balm. With over 100 years of trust and expertise,",
+      "image": "https://cdn01.pharmeasy.in/dam/products_otc/F31145/zandu-pain-relief-balm-bottle-of-50-ml-1-1654169507.jpg?dim=700x0&dpr=1&q=100",
+      "category": "Headache",
+      "id": 7
+    },
+    {
+      "name": "Volini Pain Relief Gel Tube Of 30 G",
+      "price": "110.25",
+      "description": "\nVolini Gel is a pain relief formula for instant relief from musculoskeletal injuries",
+      "image": "https://cdn01.pharmeasy.in/dam/products_otc/183150/volini-pain-relief-gel-tube-of-30-g-6.1-1661846650.jpg",
+      "category": "Pain relief",
+      "id": 8
+    },
+    {
+      "name": "Omnigel Gel 75gm",
+      "price": "196.50",
+      "description": " OmniGel is a pain relief formula for instant relief from musculoskeletal injuries",
+      "image": "https://cdn01.pharmeasy.in/dam/products_otc/266971/omnigel-gel-75gm-1-1661764953.jpg?dim=700x0&dpr=1&q=100",
+      "category": "Pain relief",
+      "id": 9
+    }
+  ],
+  "users": [
+    {
+      "name": "Peter",
+      "email": "peter@test.com",
+      "password": "peter123",
+      "id": 1
+    },
+    {
+      "name": "Anil",
+      "email": "anil@test.com",
+      "password": "anil123",
+      "id": 2
+    },
+    {
+      "name": "Matt",
+      "email": "matt@test.com",
+      "password": "matt23",
+      "id": 3
+    }
+  ]
+}

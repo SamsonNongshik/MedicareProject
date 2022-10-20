@@ -1,0 +1,15 @@
+.signup,.login{
+    text-align: center;
+    margin-bottom: 50px;
+    margin-top:  60px;
+    color: blue;
+}
+.admin-auth .link:hover{
+    text-decoration:underline;
+    cursor: pointer;
+
+
+}
+.login p{
+    color: red;
+}

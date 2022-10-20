@@ -1,0 +1,47 @@
+table{
+    text-align: center;
+    color: darkblue;
+    border-collapse: collapse;
+}
+table td, table th{
+    border: 1px solid crimson;
+    padding: 10px;
+    min-height: 160px;
+}
+img{
+    width: 100px;
+    height: 100px;
+}
+button{
+    background-color: red;
+    width: 80px;
+    height: 40px;
+    border-radius: 8px;
+    outline: none;
+    color: aliceblue;
+}
+.icon{
+    
+    text-align: center;
+    
+}
+.icon fa-icon{
+    color: red;
+    cursor: pointer;
+}
+h1{
+    color: crimson;
+}
+.updateicon{
+    margin-left: 10px;
+}
+
+.product-list h1{
+    text-align: center;
+}
+.product-list{
+    padding: 120px;
+}
+.updateicon fa-icon{
+    color: blue;
+}

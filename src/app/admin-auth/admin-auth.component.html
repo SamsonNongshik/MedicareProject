@@ -1,0 +1,26 @@
+<!-- SignUp -->
+<div class="admin-auth">
+    <div *ngIf="!showLogin" class="signup">
+        <h1>Sign-Up</h1>
+        <form #AdminSignUp ="ngForm" (ngSubmit)="signUp(AdminSignUp.value)" class="common">
+            <input type="text" ngModel name="name" placeholder="Enter Your Name">
+            <input type="password" ngModel name="password" placeholder="Enter Your Password">
+            <input type="text" ngModel name="email" placeholder="Enter Your Email Id">
+            <button >Sign-Up</button>
+            <a class="link"  (click)="openLogin()">Already Have Account? Click to Login</a>
+        </form>
+    </div>
+
+    <!-- Login  -->
+    <div *ngIf="showLogin"  class="login">
+        <h1>Log-In</h1>
+        <p>{{authError}}</p>
+        <form #AdminLogin ="ngForm" (ngSubmit)="login(AdminLogin.value)" class="common">
+            <input type="text" ngModel name="email" placeholder="Enter Your Email Id">
+            <input type="password" ngModel name="password" placeholder="Enter Your Password">
+            
+            <button >Login</button>
+            <a class="link" (click)="openSignUp()">Don't Have Account? Click to SignUp</a>
+        </form>
+    </div>
+</div>
